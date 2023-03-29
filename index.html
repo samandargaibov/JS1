@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <style>
+        .inputs{
+            text-align: center;
+            
+        }
+        .inputs input{
+            width: 200px;
+            height: 20px;
+            margin-left: 50px;
+
+        }
+        .btn{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .btn button{
+            margin-left: 15px;
+            width: 120px;
+            height: 30px;
+            background-color: rgb(6, 100, 241);
+            color: aliceblue;
+            border-color: rgb(6, 100, 241);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section id="Operations">
+    <div class="inputs">
+        <input type="text" placeholder="Reqem daxil edin" id="inp1">
+        <input type="text" placeholder="Reqem daxil edin" id="inp2">
+    </div>
+    
+    <div class="btn">  
+        <button onclick="Topla()">Toplama</button>
+        <button onclick="Cix()">Cixma</button>
+        <button onclick="Vur()">Vurma</button>
+        <button onclick="Bol()">Bolme</button>
+    </div>
+    <h1>Cavab</h1>
+    <h2 id="result">0</h2>
+</section>
+    <script src="/js/app.js"></script>
+</body>
+</html>
